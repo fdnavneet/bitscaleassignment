@@ -1,5 +1,5 @@
 import GridStatusBar from "./component/GridStatusBar";
-import DataGrid from "./component/DataGrid ";
+import DataGrid from "./component/DataGrid";
 import Toolbar from "./component/Toolbar ";
 import TopBanner from "./component/TopBanner ";
 import Upper from "./component/Upper";

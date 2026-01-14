@@ -19,7 +19,6 @@ const DataGrid = () => {
     <>
       <div className="flex-1 min-h-0 bg-white rounded overflow-auto hide-y-scrollbar">
         <table className="border-collapse table-auto text-sm w-full">
-          {/* Sticky Header */}
           <thead className="sticky top-0 bg-gray-200 z-10">
             <tr>
               <th className="w-[60px] h-[34px] px-[3px] py-[2px] border-t border-[#E5E7EB] flex items-center  gap-2">
@@ -37,8 +36,7 @@ const DataGrid = () => {
                 </div>
               </th>
               {columns.map((col, i) => (
-                <th
-                  key={`h-${col.key}-${i}`}
+                <th key={`h-${col.key}-${i}`}
                   className="border px-3 py-2 w-[180px] whitespace-normal break-words font-normal "
                 >
                   <div className="flex items-center gap-2">
@@ -49,8 +47,6 @@ const DataGrid = () => {
               ))}
             </tr>
           </thead>
-
-          {/* Body */}
           <tbody>
             {rows.map((row, i) => (
               <tr key={`r-${i}`} className="hover:bg-gray-50 ">
@@ -89,7 +85,6 @@ const DataGrid = () => {
                       )
                     ) : col.key === "name" ? (
                       <div className="flex items-center w-[200px]  h-[34px] gap-[8px] pt-[3px] pr-[3px] pb-[3px] pl-[3px] border-b border-[#F3F4F6]">
-                        {/* left pill */}
                         <span className=" w-[191px] h-[24px]  pt-[3px] pr-[8px] pb-[3px] pl-[8px] bg-[#E7F3F8] rounded-full flex items-center gap-[8px]">
                           <img
                             src={framepeople}
@@ -112,7 +107,7 @@ const DataGrid = () => {
                             className="w-[14px] h-[14px] object-contain"
                           />
                         </div>
-                        href={row.website}
+                        {row.website}
                       </div>
                     ) : col.key === "linkedin" ? (
                       <div className="flex items-center w-[200px]  h-[34px] gap-[8px] pt-[3px] pr-[3px] pb-[3px] pl-[3px] border-b border-[#F3F4F6]">
@@ -223,10 +218,7 @@ const DataGrid = () => {
             </span>
             Grid
           </button>
-
-          {/* Chips Row */}
           <div className="flex items-center gap-[6px]">
-            {/* Kill Run chip */}
             <div className="flex items-center gap-2 h-[28px] rounded-lg px-[3px]">
               <span className="relative w-[13.6px] h-[13.6px]">
                 <img
