@@ -6,7 +6,7 @@ Focuses on clean UI, reusable components, and scalable frontend architecture**.
 ---
 
 ## 🚀 Live Demo
-👉 https://your-live-demo-link.vercel.app
+👉 https://bitscaleassignment-lql4tnfow-navneet-kumars-projects-9620227f.vercel.app/
 
 ---
 

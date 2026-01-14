@@ -23,6 +23,16 @@ export const columns = [
   height: 14 },
   { key: "email", label: "Email Waterfall", type: "single", icon: mail, width: 14,
   height: 14 },
+  { key: "updated", label: "Last Updated At", type: "single", icon: calender,width: 14,
+  height: 14 },
+  { key: "company", label: "Company Name", type: "single", icon: flogo,width: 16,
+  height: 14 },
+  { key: "website", label: "Company Website", type: "single", icon: flogo,width: 16,
+  height: 14 },
+  { key: "linkedin", label: "LinkedIn Job URL", type: "single", icon: flogo,width: 16,
+  height: 14 },
+  { key: "email", label: "Email Waterfall", type: "single", icon: mail, width: 14,
+  height: 14 },
 
 
  
