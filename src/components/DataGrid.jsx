@@ -1,6 +1,6 @@
 import { columns } from "../data/data";
 import { rows } from "../data/data";
-// import checkbox from "../assets/checkbox.png";
+import checkbox from "../assets/checkbox.png";
 import icon from "../assets/icon.png";
 import framepeople from "../assets/framepeople.png";
 import iconright from "../assets/iconright.png";
@@ -23,9 +23,9 @@ const DataGrid = () => {
             <tr>
               <th className="w-[60px] h-[34px] px-[3px] py-[2px] border-t border-[#E5E7EB] flex items-center  gap-2">
                 <div className="flex items-center justify-center gap-2">
-                  {/* <span className="w-[14px] h-[16px]">
+                  <span className="w-[14px] h-[16px]">
                     <img src={checkbox} alt="checkbox" />
-                  </span> */}
+                  </span>
                   <span>
                     <img
                       src={icon}
