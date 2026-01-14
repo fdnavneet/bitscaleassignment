@@ -1,18 +1,18 @@
 import { columns } from "../data/data";
 import { rows } from "../data/data";
-import checkbox from "../assets/checkbox.png";
-import icon from "../assets/icon.png";
-import framepeople from "../assets/framepeople.png";
-import iconright from "../assets/iconright.png";
+import checkbox from "../asstets/checkbox.png";
+import icon from "../asstets/icon.png";
+import framepeople from "../asstets/framepeople.png";
+import iconright from "../asstets/iconright.png";
 import HeaderIcon from "./HeaderIcon";
-import aqarrow from "../assets/aqarrow.png";
-import emailceck from "../assets/emailceck.png";
-import plus from "../assets/plus.png";
-import verticaldot from "../assets/verticaldot.png";
-import leftarrow from "../assets/leftarrow.png";
-import rightarrow from "../assets/rightarrow.png";
-import cross from "../assets/cross.png";
-import hourglass from "../assets/hourglass.png";
+import aqarrow from "../asstets/aqarrow.png";
+import emailceck from "../asstets/emailceck.png";
+import plus from "../asstets/plus.png";
+import verticaldot from "../asstets/verticaldot.png";
+import leftarrow from "../asstets/leftarrow.png";
+import rightarrow from "../asstets/rightarrow.png";
+import cross from "../asstets/cross.png";
+import hourglass from "../asstets/hourglass.png";
 
 const DataGrid = () => {
   return (

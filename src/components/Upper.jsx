@@ -1,9 +1,9 @@
 import {  Star } from "lucide-react";
-import cloud from "../assets/cloud.png";
-import check from "../assets/check.png";
-import Vectorupper from "../assets/Vectorupper.png";
-import Vectorlower from "../assets/Vectorlower.png";
-import homeicon from "../assets/homeicon.png";
+import cloud from "../asstets/cloud.png";
+import check from "../asstets/check.png";
+import Vectorupper from "../asstets/vectorupper.png";
+import Vectorlower from "../asstets/vectorlower.png";
+import homeicon from "../asstets/homeicon.png";
 
 const GridStatusBar = () => {
 

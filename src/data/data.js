@@ -1,10 +1,10 @@
-import building from "../assets/building.png";
-import people from "../assets/people.png";
-import calender from "../assets/calender.png";
-import flogo from "../assets/flogo.png";
-import mail from "../assets/mail.png";
-import google from "../assets/google.png";
-import linkdin from "../assets/linkdin.png";
+import building from "../asstets/building.png";
+import people from "../asstets/people.png";
+import calender from "../asstets/calender.png";
+import flogo from "../asstets/flogo.png";
+import mail from "../asstets/mail.png";
+import google from "../asstets/google.png";
+import linkdin from "../asstets/linkdin.png";
 export const columns = [
   {
     key: "name",

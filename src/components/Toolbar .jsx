@@ -1,13 +1,13 @@
-import building from "../assets/building.png";
-import people from "../assets/people.png";
-import arrowdown from "../assets/arrowdown.png";
-import bookicon from "../assets/bookicon.png";
-import iconpage from "../assets/iconpage.png";
-import sort from "../assets/sort.png";
-import filterlines from "../assets/filter-lines.png";
-import enrichment from "../assets/enrichment.png";
-import chevrondown from "../assets/chevrondown.png";
-import circlestar from "../assets/circlestar.png";
+import building from "../asstets/building.png";
+import people from "../asstets/people.png";
+import arrowdown from "../asstets/arrowdown.png";
+import bookicon from "../asstets//bookicon.png";
+import iconpage from "../asstets/iconpage.png";
+import sort from "../asstets/sort.png";
+import filterlines from "../asstets/filter-lines.png";
+import enrichment from "../asstets/enrichment.png";
+import chevrondown from "../asstets//chevrondown.png";
+import circlestar from "../asstets/circlestar.png";
 
 const Toolbar = () => {
   return (
