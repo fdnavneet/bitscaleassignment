@@ -1,0 +1,228 @@
+import building from "../assets/building.png";
+import people from "../assets/people.png";
+import calender from "../assets/calender.png";
+import flogo from "../assets/flogo.png";
+import mail from "../assets/mail.png";
+import google from "../assets/google.png";
+import linkdin from "../assets/linkdin.png";
+export const columns = [
+  {
+    key: "name",
+    label: "Imported Data",
+    type: "people-building",
+    building: building,
+    people: people,
+  },
+  { key: "updated", label: "Last Updated At", type: "single", icon: calender,width: 14,
+  height: 14 },
+  { key: "company", label: "Company Name", type: "single", icon: flogo,width: 16,
+  height: 14 },
+  { key: "website", label: "Company Website", type: "single", icon: flogo,width: 16,
+  height: 14 },
+  { key: "linkedin", label: "LinkedIn Job URL", type: "single", icon: flogo,width: 16,
+  height: 14 },
+  { key: "email", label: "Email Waterfall", type: "single", icon: mail, width: 14,
+  height: 14 },
+
+
+ 
+];
+
+export const rows = [
+  {
+    name: "Mike Braham",
+    updated: "Oct 12, 2024 14:08",
+    company: "Google",
+    website: "https://example.com",
+    icon:google,
+    linkedin: "https://linkedin.com",
+    email: "found",
+  },
+  {
+    name: "Sarah Thompson",
+    updated: "Oct 12, 2024 14:08",
+    company: "LinkedIn",
+    website: "https://testsite.com",
+    icon:linkdin,
+    linkedin: "https://linkedin.com",
+    email: "notfound",
+  },
+
+
+
+
+    {
+    name: "Mike Braham",
+    updated: "Oct 12, 2024 14:08",
+    company: "Google",
+    website: "https://example.com",
+    icon:google,
+    linkedin: "https://linkedin.com",
+    email: "found",
+  },
+  {
+    name: "Sarah Thompson",
+    updated: "Oct 12, 2024 14:08",
+    company: "LinkedIn",
+    website: "https://testsite.com",
+    icon:linkdin,
+    linkedin: "https://linkedin.com",
+    email: "notfound",
+  },
+
+    {
+    name: "Mike Braham",
+    updated: "Oct 12, 2024 14:08",
+    company: "Google",
+    website: "https://example.com",
+    icon:google,
+    linkedin: "https://linkedin.com",
+    email: "found",
+  },
+  {
+    name: "Sarah Thompson",
+    updated: "Oct 12, 2024 14:08",
+    company: "LinkedIn",
+    website: "https://testsite.com",
+    icon:linkdin,
+    linkedin: "https://linkedin.com",
+    email: "notfound",
+  },  {
+    name: "Mike Braham",
+    updated: "Oct 12, 2024 14:08",
+    company: "Google",
+    website: "https://example.com",
+    icon:google,
+    linkedin: "https://linkedin.com",
+    email: "found",
+  },
+  {
+    name: "Sarah Thompson",
+    updated: "Oct 12, 2024 14:08",
+    company: "LinkedIn",
+    website: "https://testsite.com",
+    icon:linkdin,
+    linkedin: "https://linkedin.com",
+    email: "notfound",
+  },  {
+    name: "Mike Braham",
+    updated: "Oct 12, 2024 14:08",
+    company: "Google",
+    website: "https://example.com",
+    icon:google,
+    linkedin: "https://linkedin.com",
+    email: "found",
+  },
+  {
+    name: "Sarah Thompson",
+    updated: "Oct 12, 2024 14:08",
+    company: "LinkedIn",
+    website: "https://testsite.com",
+    icon:linkdin,
+    linkedin: "https://linkedin.com",
+    email: "notfound",
+  },  {
+    name: "Mike Braham",
+    updated: "Oct 12, 2024 14:08",
+    company: "Google",
+    website: "https://example.com",
+    icon:google,
+    linkedin: "https://linkedin.com",
+    email: "found",
+  },
+  {
+    name: "Sarah Thompson",
+    updated: "Oct 12, 2024 14:08",
+    company: "LinkedIn",
+    website: "https://testsite.com",
+    icon:linkdin,
+    linkedin: "https://linkedin.com",
+    email: "notfound",
+  },  {
+    name: "Mike Braham",
+    updated: "Oct 12, 2024 14:08",
+    company: "Google",
+    website: "https://example.com",
+    icon:google,
+    linkedin: "https://linkedin.com",
+    email: "found",
+  },
+  {
+    name: "Sarah Thompson",
+    updated: "Oct 12, 2024 14:08",
+    company: "LinkedIn",
+    website: "https://testsite.com",
+    icon:linkdin,
+    linkedin: "https://linkedin.com",
+    email: "notfound",
+  },  {
+    name: "Mike Braham",
+    updated: "Oct 12, 2024 14:08",
+    company: "Google",
+    website: "https://example.com",
+    icon:google,
+    linkedin: "https://linkedin.com",
+    email: "found",
+  },
+  {
+    name: "Sarah Thompson",
+    updated: "Oct 12, 2024 14:08",
+    company: "LinkedIn",
+    website: "https://testsite.com",
+    icon:linkdin,
+    linkedin: "https://linkedin.com",
+    email: "notfound",
+  },  {
+    name: "Mike Braham",
+    updated: "Oct 12, 2024 14:08",
+    company: "Google",
+    website: "https://example.com",
+    icon:google,
+    linkedin: "https://linkedin.com",
+    email: "found",
+  },
+  {
+    name: "Sarah Thompson",
+    updated: "Oct 12, 2024 14:08",
+    company: "LinkedIn",
+    website: "https://testsite.com",
+    icon:linkdin,
+    linkedin: "https://linkedin.com",
+    email: "notfound",
+  },  {
+    name: "Mike Braham",
+    updated: "Oct 12, 2024 14:08",
+    company: "Google",
+    website: "https://example.com",
+    icon:google,
+    linkedin: "https://linkedin.com",
+    email: "found",
+  },
+  {
+    name: "Sarah Thompson",
+    updated: "Oct 12, 2024 14:08",
+    company: "LinkedIn",
+    website: "https://testsite.com",
+    icon:linkdin,
+    linkedin: "https://linkedin.com",
+    email: "notfound",
+  },  {
+    name: "Mike Braham",
+    updated: "Oct 12, 2024 14:08",
+    company: "Google",
+    website: "https://example.com",
+    icon:google,
+    linkedin: "https://linkedin.com",
+    email: "found",
+  },
+  {
+    name: "Sarah Thompson",
+    updated: "Oct 12, 2024 14:08",
+    company: "LinkedIn",
+    website: "https://testsite.com",
+    icon:linkdin,
+    linkedin: "https://linkedin.com",
+    email: "notfound",
+  },
+  
+];
