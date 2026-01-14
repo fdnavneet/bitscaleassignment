@@ -1,8 +1,8 @@
-import GridStatusBar from "./component/GridStatusBar";
-import DataGrid from "./component/DataGrid";
-import Toolbar from "./component/Toolbar ";
-import TopBanner from "./component/TopBanner ";
-import Upper from "./component/Upper";
+import GridStatusBar from "./components/GridStatusBar";
+import DataGrid from "./components/DataGrid";
+import Toolbar from "./components/Toolbar ";
+import TopBanner from "./components/TopBanner ";
+import Upper from "./components/Upper";
 
 export default function App() {
   return (
